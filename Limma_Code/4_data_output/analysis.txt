@@ -1,0 +1,216 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20190711)
+Annotation Version and Release Date:	GO Ontology database  Released 2019-10-08
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20996)	upload_1 (80)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+negative regulation of nucleobase-containing compound transport (GO:0032240)	2	2	.01	+	 > 100	8.50E-05	9.79E-03
+negative regulation of RNA export from nucleus (GO:0046832)	2	2	.01	+	 > 100	8.50E-05	9.72E-03
+posttranscriptional tethering of RNA polymerase II gene DNA at nuclear periphery (GO:0000973)	3	2	.01	+	 > 100	1.41E-04	1.47E-02
+nuclear pore complex assembly (GO:0051292)	9	4	.03	+	 > 100	1.34E-07	3.74E-05
+actomyosin contractile ring assembly (GO:0000915)	5	2	.02	+	 > 100	2.95E-04	2.73E-02
+assembly of actomyosin apparatus involved in cytokinesis (GO:0000912)	5	2	.02	+	 > 100	2.95E-04	2.71E-02
+nuclear pore organization (GO:0006999)	14	5	.05	+	93.73	7.74E-09	3.85E-06
+actomyosin contractile ring organization (GO:0044837)	6	2	.02	+	87.48	3.93E-04	3.41E-02
+transcription-dependent tethering of RNA polymerase II gene DNA at nuclear periphery (GO:0000972)	6	2	.02	+	87.48	3.93E-04	3.39E-02
+G-quadruplex DNA unwinding (GO:0044806)	7	2	.03	+	74.99	5.03E-04	4.06E-02
+regulation of RNA export from nucleus (GO:0046831)	15	4	.06	+	69.99	7.14E-07	1.62E-04
+mitotic spindle elongation (GO:0000022)	8	2	.03	+	65.61	6.28E-04	4.92E-02
+regulation of nucleobase-containing compound transport (GO:0032239)	17	4	.06	+	61.75	1.10E-06	2.24E-04
+pore complex assembly (GO:0046931)	20	4	.08	+	52.49	1.93E-06	3.49E-04
+tRNA-containing ribonucleoprotein complex export from nucleus (GO:0071431)	34	6	.13	+	46.31	8.56E-09	4.00E-06
+tRNA export from nucleus (GO:0006409)	34	6	.13	+	46.31	8.56E-09	3.89E-06
+tRNA transport (GO:0051031)	36	6	.14	+	43.74	1.16E-08	4.87E-06
+ncRNA export from nucleus (GO:0097064)	38	6	.14	+	41.44	1.56E-08	6.34E-06
+mitotic spindle assembly checkpoint (GO:0007094)	27	3	.10	+	29.16	1.99E-04	2.00E-02
+intracellular transport of virus (GO:0075733)	54	6	.21	+	29.16	1.05E-07	3.10E-05
+mitotic spindle checkpoint (GO:0071174)	27	3	.10	+	29.16	1.99E-04	1.99E-02
+spindle assembly checkpoint (GO:0071173)	27	3	.10	+	29.16	1.99E-04	1.97E-02
+spindle checkpoint (GO:0031577)	27	3	.10	+	29.16	1.99E-04	1.96E-02
+transport of virus (GO:0046794)	57	6	.22	+	27.63	1.41E-07	3.88E-05
+negative regulation of mitotic metaphase/anaphase transition (GO:0045841)	29	3	.11	+	27.15	2.41E-04	2.28E-02
+regulation of mitotic spindle organization (GO:0060236)	39	4	.15	+	26.92	2.12E-05	2.91E-03
+negative regulation of metaphase/anaphase transition of cell cycle (GO:1902100)	30	3	.11	+	26.25	2.65E-04	2.48E-02
+negative regulation of mitotic sister chromatid separation (GO:2000816)	32	3	.12	+	24.60	3.16E-04	2.89E-02
+regulation of spindle organization (GO:0090224)	43	4	.16	+	24.41	3.03E-05	4.05E-03
+mRNA export from nucleus (GO:0006406)	110	10	.42	+	23.86	2.88E-11	3.82E-08
+mRNA-containing ribonucleoprotein complex export from nucleus (GO:0071427)	110	10	.42	+	23.86	2.88E-11	3.52E-08
+negative regulation of chromosome separation (GO:1905819)	33	3	.13	+	23.86	3.44E-04	3.07E-02
+protein sumoylation (GO:0016925)	66	6	.25	+	23.86	3.16E-07	7.86E-05
+multi-organism localization (GO:1902579)	70	6	.27	+	22.50	4.37E-07	1.04E-04
+multi-organism transport (GO:0044766)	70	6	.27	+	22.50	4.37E-07	1.02E-04
+positive regulation of RNA splicing (GO:0033120)	35	3	.13	+	22.50	4.04E-04	3.45E-02
+negative regulation of mitotic sister chromatid segregation (GO:0033048)	35	3	.13	+	22.50	4.04E-04	3.43E-02
+RNA export from nucleus (GO:0006405)	130	11	.50	+	22.21	5.72E-12	1.01E-08
+regulation of chromosome segregation (GO:0051983)	108	9	.41	+	21.87	6.11E-10	4.22E-07
+regulation of sister chromatid segregation (GO:0033045)	85	7	.32	+	21.61	5.87E-08	1.95E-05
+mRNA transport (GO:0051028)	160	13	.61	+	21.32	9.52E-14	3.79E-10
+negative regulation of sister chromatid segregation (GO:0033046)	37	3	.14	+	21.28	4.70E-04	3.87E-02
+mitotic spindle assembly (GO:0090307)	37	3	.14	+	21.28	4.70E-04	3.85E-02
+negative regulation of chromosome segregation (GO:0051985)	38	3	.14	+	20.72	5.06E-04	4.06E-02
+ribonucleoprotein complex export from nucleus (GO:0071426)	127	10	.48	+	20.67	1.08E-10	1.07E-07
+ribonucleoprotein complex localization (GO:0071166)	128	10	.49	+	20.50	1.16E-10	1.09E-07
+regulation of glycolytic process (GO:0006110)	79	6	.30	+	19.93	8.52E-07	1.86E-04
+regulation of cellular response to heat (GO:1900034)	79	6	.30	+	19.93	8.52E-07	1.83E-04
+regulation of chromosome separation (GO:1905818)	67	5	.26	+	19.59	7.96E-06	1.27E-03
+mitotic cytokinesis (GO:0000281)	70	5	.27	+	18.75	9.73E-06	1.49E-03
+RNA transport (GO:0050658)	198	14	.75	+	18.56	5.93E-14	9.43E-10
+nucleic acid transport (GO:0050657)	198	14	.75	+	18.56	5.93E-14	4.71E-10
+establishment of RNA localization (GO:0051236)	200	14	.76	+	18.37	6.75E-14	3.58E-10
+regulation of gene silencing by miRNA (GO:0060964)	86	6	.33	+	18.31	1.36E-06	2.64E-04
+regulation of carbohydrate catabolic process (GO:0043470)	87	6	.33	+	18.10	1.45E-06	2.78E-04
+regulation of mitotic sister chromatid segregation (GO:0033047)	73	5	.28	+	17.98	1.18E-05	1.75E-03
+nuclear export (GO:0051168)	161	11	.61	+	17.93	4.99E-11	5.67E-08
+regulation of posttranscriptional gene silencing (GO:0060147)	89	6	.34	+	17.69	1.64E-06	3.04E-04
+regulation of gene silencing by RNA (GO:0060966)	89	6	.34	+	17.69	1.64E-06	3.00E-04
+mitotic spindle organization (GO:0007052)	75	5	.29	+	17.50	1.34E-05	1.97E-03
+protein export from nucleus (GO:0006611)	151	10	.58	+	17.38	5.31E-10	3.84E-07
+microtubule cytoskeleton organization involved in mitosis (GO:1902850)	106	7	.40	+	17.33	2.43E-07	6.13E-05
+regulation of mitotic sister chromatid separation (GO:0010965)	62	4	.24	+	16.93	1.16E-04	1.25E-02
+RNA localization (GO:0006403)	221	14	.84	+	16.63	2.45E-13	7.78E-10
+protein import into nucleus (GO:0006606)	98	6	.37	+	16.07	2.79E-06	4.82E-04
+nucleus organization (GO:0006997)	131	8	.50	+	16.03	5.68E-08	1.92E-05
+import into nucleus (GO:0051170)	118	7	.45	+	15.57	4.84E-07	1.11E-04
+nucleobase-containing compound transport (GO:0015931)	244	14	.93	+	15.06	8.76E-13	2.32E-09
+mitotic sister chromatid segregation (GO:0000070)	105	6	.40	+	15.00	4.08E-06	6.82E-04
+regulation of RNA splicing (GO:0043484)	141	8	.54	+	14.89	9.74E-08	2.92E-05
+regulation of mRNA processing (GO:0050684)	143	8	.54	+	14.68	1.08E-07	3.12E-05
+mitotic prometaphase (GO:0000236)	170	9	.65	+	13.89	2.60E-08	9.83E-06
+regulation of mitotic nuclear division (GO:0007088)	171	9	.65	+	13.81	2.72E-08	1.01E-05
+viral transcription (GO:0019083)	115	6	.44	+	13.69	6.72E-06	1.10E-03
+regulation of purine nucleotide metabolic process (GO:1900542)	117	6	.45	+	13.46	7.38E-06	1.19E-03
+anaphase (GO:0051322)	156	8	.59	+	13.46	2.04E-07	5.32E-05
+mitotic anaphase (GO:0000090)	156	8	.59	+	13.46	2.04E-07	5.23E-05
+cytoskeleton-dependent cytokinesis (GO:0061640)	98	5	.37	+	13.39	4.54E-05	5.73E-03
+regulation of nucleotide metabolic process (GO:0006140)	119	6	.45	+	13.23	8.10E-06	1.28E-03
+regulation of ATP metabolic process (GO:1903578)	120	6	.46	+	13.12	8.48E-06	1.32E-03
+mitotic nuclear division (GO:0140014)	142	7	.54	+	12.94	1.58E-06	2.96E-04
+spindle assembly (GO:0051225)	83	4	.32	+	12.65	3.37E-04	3.03E-02
+regulation of mRNA splicing, via spliceosome (GO:0048024)	104	5	.40	+	12.62	5.96E-05	7.34E-03
+regulation of gene silencing (GO:0060968)	127	6	.48	+	12.40	1.16E-05	1.73E-03
+M phase (GO:0000279)	170	8	.65	+	12.35	3.82E-07	9.34E-05
+mitotic M phase (GO:0000087)	170	8	.65	+	12.35	3.82E-07	9.20E-05
+regulation of nuclear division (GO:0051783)	196	9	.75	+	12.05	8.35E-08	2.55E-05
+regulation of cytokinesis (GO:0032465)	88	4	.34	+	11.93	4.17E-04	3.47E-02
+viral gene expression (GO:0019080)	132	6	.50	+	11.93	1.43E-05	2.06E-03
+cytokinesis (GO:0000910)	110	5	.42	+	11.93	7.69E-05	9.06E-03
+regulation of generation of precursor metabolites and energy (GO:0043467)	158	7	.60	+	11.63	3.12E-06	5.28E-04
+sister chromatid segregation (GO:0000819)	138	6	.53	+	11.41	1.82E-05	2.58E-03
+spindle organization (GO:0007051)	139	6	.53	+	11.33	1.89E-05	2.64E-03
+negative regulation of chromosome organization (GO:2001251)	140	6	.53	+	11.25	1.96E-05	2.72E-03
+protein-containing complex localization (GO:0031503)	261	11	.99	+	11.06	6.44E-09	3.31E-06
+nucleocytoplasmic transport (GO:0006913)	266	11	1.01	+	10.85	7.79E-09	3.75E-06
+nuclear transport (GO:0051169)	269	11	1.02	+	10.73	8.70E-09	3.84E-06
+regulation of chromosome organization (GO:0033044)	358	14	1.36	+	10.26	1.17E-10	1.04E-07
+protein import (GO:0017038)	156	6	.59	+	10.09	3.53E-05	4.64E-03
+protein localization to nucleus (GO:0034504)	167	6	.64	+	9.43	5.10E-05	6.38E-03
+mRNA processing (GO:0006397)	474	17	1.81	+	9.41	3.50E-12	7.95E-09
+circadian rhythm (GO:0007623)	144	5	.55	+	9.11	2.59E-04	2.44E-02
+biological phase (GO:0044848)	267	9	1.02	+	8.85	1.02E-06	2.17E-04
+mitotic cell cycle phase (GO:0098763)	267	9	1.02	+	8.85	1.02E-06	2.14E-04
+cell cycle phase (GO:0022403)	267	9	1.02	+	8.85	1.02E-06	2.11E-04
+positive regulation of chromosome organization (GO:2001252)	179	6	.68	+	8.80	7.40E-05	8.78E-03
+regulation of mRNA metabolic process (GO:1903311)	330	11	1.26	+	8.75	6.56E-08	2.13E-05
+chromosome segregation (GO:0007059)	273	9	1.04	+	8.65	1.22E-06	2.43E-04
+positive regulation of mitotic cell cycle (GO:0045931)	152	5	.58	+	8.63	3.30E-04	2.98E-02
+RNA splicing (GO:0008380)	396	13	1.51	+	8.62	4.45E-09	2.44E-06
+nuclear chromosome segregation (GO:0098813)	215	7	.82	+	8.54	2.17E-05	2.94E-03
+mitotic cell cycle checkpoint (GO:0007093)	160	5	.61	+	8.20	4.14E-04	3.49E-02
+regulation of microtubule cytoskeleton organization (GO:0070507)	196	6	.75	+	8.03	1.20E-04	1.29E-02
+mRNA splicing, via spliceosome (GO:0000398)	295	9	1.12	+	8.01	2.27E-06	4.06E-04
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	295	9	1.12	+	8.01	2.27E-06	4.01E-04
+cell division (GO:0051301)	494	15	1.88	+	7.97	7.09E-10	4.70E-07
+RNA splicing, via transesterification reactions (GO:0000375)	298	9	1.14	+	7.93	2.46E-06	4.30E-04
+viral life cycle (GO:0019058)	199	6	.76	+	7.91	1.30E-04	1.38E-02
+regulation of cell division (GO:0051302)	167	5	.64	+	7.86	5.01E-04	4.06E-02
+regulation of carbohydrate metabolic process (GO:0006109)	211	6	.80	+	7.46	1.77E-04	1.81E-02
+mitotic cell cycle process (GO:1903047)	610	17	2.32	+	7.31	1.61E-10	1.28E-07
+positive regulation of cell cycle process (GO:0090068)	289	8	1.10	+	7.27	1.70E-05	2.44E-03
+regulation of cell cycle process (GO:0010564)	763	20	2.91	+	6.88	8.54E-12	1.36E-08
+regulation of microtubule-based process (GO:0032886)	230	6	.88	+	6.85	2.78E-04	2.59E-02
+mitotic cell cycle (GO:0000278)	696	18	2.65	+	6.79	1.39E-10	1.16E-07
+nuclear division (GO:0000280)	279	7	1.06	+	6.58	1.07E-04	1.19E-02
+mRNA metabolic process (GO:0016071)	693	17	2.64	+	6.44	1.07E-09	6.56E-07
+DNA conformation change (GO:0071103)	291	7	1.11	+	6.31	1.38E-04	1.46E-02
+negative regulation of organelle organization (GO:0010639)	386	9	1.47	+	6.12	1.87E-05	2.63E-03
+RNA processing (GO:0006396)	868	20	3.31	+	6.05	8.11E-11	8.60E-08
+organelle fission (GO:0048285)	308	7	1.17	+	5.96	1.95E-04	1.97E-02
+regulation of mitotic cell cycle (GO:0007346)	638	14	2.43	+	5.76	1.47E-07	3.95E-05
+regulation of mitotic cell cycle phase transition (GO:1901990)	418	9	1.59	+	5.65	3.44E-05	4.56E-03
+positive regulation of cell cycle (GO:0045787)	386	8	1.47	+	5.44	1.25E-04	1.33E-02
+regulation of cell cycle phase transition (GO:1901987)	453	9	1.73	+	5.21	6.32E-05	7.73E-03
+microtubule cytoskeleton organization (GO:0000226)	467	9	1.78	+	5.06	7.94E-05	9.22E-03
+posttranscriptional regulation of gene expression (GO:0010608)	529	10	2.02	+	4.96	3.64E-05	4.74E-03
+ribonucleoprotein complex biogenesis (GO:0022613)	424	8	1.62	+	4.95	2.33E-04	2.23E-02
+DNA repair (GO:0006281)	516	9	1.97	+	4.58	1.66E-04	1.71E-02
+cell cycle process (GO:0022402)	986	17	3.76	+	4.53	1.72E-07	4.55E-05
+chromosome organization (GO:0051276)	1055	18	4.02	+	4.48	8.11E-08	2.53E-05
+regulation of cell cycle (GO:0051726)	1206	20	4.60	+	4.35	2.10E-08	8.13E-06
+cell cycle (GO:0007049)	1328	22	5.06	+	4.35	3.49E-09	2.06E-06
+actin filament-based process (GO:0030029)	573	9	2.18	+	4.12	3.56E-04	3.16E-02
+viral process (GO:0016032)	702	11	2.67	+	4.11	7.70E-05	9.01E-03
+cytoskeleton organization (GO:0007010)	1095	17	4.17	+	4.07	7.30E-07	1.64E-04
+negative regulation of cellular component organization (GO:0051129)	711	11	2.71	+	4.06	8.61E-05	9.78E-03
+regulation of organelle organization (GO:0033043)	1298	20	4.95	+	4.04	6.93E-08	2.20E-05
+gene expression (GO:0010467)	2016	31	7.68	+	4.04	4.02E-12	7.99E-09
+symbiotic process (GO:0044403)	783	12	2.98	+	4.02	4.36E-05	5.55E-03
+microtubule-based process (GO:0007017)	654	10	2.49	+	4.01	2.03E-04	1.98E-02
+regulation of cellular response to stress (GO:0080135)	730	11	2.78	+	3.95	1.08E-04	1.19E-02
+DNA metabolic process (GO:0006259)	752	11	2.87	+	3.84	1.40E-04	1.47E-02
+RNA metabolic process (GO:0016070)	1685	24	6.42	+	3.74	1.05E-08	4.52E-06
+interspecies interaction between organisms (GO:0044419)	855	12	3.26	+	3.68	9.99E-05	1.12E-02
+nucleic acid metabolic process (GO:0090304)	2289	32	8.72	+	3.67	1.90E-11	2.75E-08
+cellular protein-containing complex assembly (GO:0034622)	793	11	3.02	+	3.64	2.21E-04	2.13E-02
+organelle assembly (GO:0070925)	725	10	2.76	+	3.62	4.55E-04	3.77E-02
+protein localization to organelle (GO:0033365)	757	10	2.88	+	3.47	6.34E-04	4.94E-02
+nucleobase-containing compound metabolic process (GO:0006139)	2804	33	10.68	+	3.09	7.46E-10	4.74E-07
+heterocycle metabolic process (GO:0046483)	2983	33	11.37	+	2.90	3.64E-09	2.07E-06
+cellular aromatic compound metabolic process (GO:0006725)	3027	33	11.53	+	2.86	5.28E-09	2.80E-06
+organelle organization (GO:0006996)	3418	37	13.02	+	2.84	3.97E-10	3.01E-07
+negative regulation of nucleobase-containing compound metabolic process (GO:0045934)	1456	15	5.55	+	2.70	3.77E-04	3.31E-02
+protein-containing complex assembly (GO:0065003)	1466	15	5.59	+	2.69	4.05E-04	3.42E-02
+organic cyclic compound metabolic process (GO:1901360)	3261	33	12.43	+	2.66	3.37E-08	1.22E-05
+cellular component biogenesis (GO:0044085)	2699	27	10.28	+	2.63	1.35E-06	2.66E-04
+protein-containing complex subunit organization (GO:0043933)	1707	17	6.50	+	2.61	2.14E-04	2.08E-02
+positive regulation of gene expression (GO:0010628)	2011	20	7.66	+	2.61	5.28E-05	6.56E-03
+positive regulation of macromolecule biosynthetic process (GO:0010557)	1919	19	7.31	+	2.60	9.04E-05	1.02E-02
+cellular protein localization (GO:0034613)	1618	16	6.16	+	2.60	3.68E-04	3.25E-02
+cellular nitrogen compound metabolic process (GO:0034641)	3454	34	13.16	+	2.58	3.68E-08	1.30E-05
+cellular macromolecule localization (GO:0070727)	1626	16	6.20	+	2.58	3.88E-04	3.39E-02
+cellular component assembly (GO:0022607)	2473	24	9.42	+	2.55	1.10E-05	1.67E-03
+positive regulation of cellular biosynthetic process (GO:0031328)	2007	19	7.65	+	2.48	1.63E-04	1.68E-02
+positive regulation of biosynthetic process (GO:0009891)	2039	19	7.77	+	2.45	1.99E-04	1.96E-02
+regulation of cellular component organization (GO:0051128)	2491	23	9.49	+	2.42	3.96E-05	5.12E-03
+cellular localization (GO:0051641)	2396	22	9.13	+	2.41	6.70E-05	8.02E-03
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	4040	37	15.39	+	2.40	4.24E-08	1.47E-05
+regulation of gene expression (GO:0010468)	4463	40	17.01	+	2.35	1.82E-08	7.24E-06
+regulation of RNA metabolic process (GO:0051252)	3785	31	14.42	+	2.15	1.34E-05	1.95E-03
+cellular component organization or biogenesis (GO:0071840)	5830	45	22.21	+	2.03	1.12E-07	3.18E-05
+positive regulation of macromolecule metabolic process (GO:0010604)	3375	26	12.86	+	2.02	3.25E-04	2.96E-02
+cellular component organization (GO:0016043)	5642	42	21.50	+	1.95	1.50E-06	2.84E-04
+positive regulation of metabolic process (GO:0009893)	3650	27	13.91	+	1.94	5.17E-04	4.11E-02
+regulation of nitrogen compound metabolic process (GO:0051171)	5839	43	22.25	+	1.93	1.14E-06	2.30E-04
+regulation of macromolecule metabolic process (GO:0060255)	6160	45	23.47	+	1.92	7.70E-07	1.70E-04
+regulation of macromolecule biosynthetic process (GO:0010556)	4046	29	15.42	+	1.88	5.14E-04	4.11E-02
+regulation of cellular macromolecule biosynthetic process (GO:2000112)	3908	28	14.89	+	1.88	4.74E-04	3.87E-02
+regulation of response to stimulus (GO:0048583)	4331	31	16.50	+	1.88	2.41E-04	2.30E-02
+regulation of primary metabolic process (GO:0080090)	6023	43	22.95	+	1.87	2.87E-06	4.90E-04
+regulation of biosynthetic process (GO:0009889)	4264	30	16.25	+	1.85	4.04E-04	3.47E-02
+macromolecule metabolic process (GO:0043170)	6193	43	23.60	+	1.82	6.53E-06	1.08E-03
+regulation of cellular metabolic process (GO:0031323)	6216	43	23.68	+	1.82	6.99E-06	1.13E-03
+positive regulation of cellular process (GO:0048522)	5465	37	20.82	+	1.78	1.03E-04	1.14E-02
+regulation of metabolic process (GO:0019222)	6690	45	25.49	+	1.77	9.66E-06	1.49E-03
+positive regulation of biological process (GO:0048518)	6214	41	23.68	+	1.73	6.38E-05	7.69E-03
+nitrogen compound metabolic process (GO:0006807)	7023	44	26.76	+	1.64	1.13E-04	1.23E-02
+cellular metabolic process (GO:0044237)	7671	45	29.23	+	1.54	4.16E-04	3.48E-02
+primary metabolic process (GO:0044238)	7501	44	28.58	+	1.54	6.02E-04	4.74E-02
+regulation of cellular process (GO:0050794)	10981	60	41.84	+	1.43	4.20E-05	5.38E-03
+regulation of biological process (GO:0050789)	11688	62	44.53	+	1.39	6.37E-05	7.74E-03
+biological regulation (GO:0065007)	12387	62	47.20	+	1.31	5.89E-04	4.66E-02
+cellular process (GO:0009987)	14575	72	55.53	+	1.30	2.39E-05	3.23E-03
