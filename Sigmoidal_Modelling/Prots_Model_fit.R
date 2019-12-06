@@ -203,5 +203,76 @@ for(site in Ind_substrates$ï..RecordsIndex){
   }
 }
 
+#New plot with all bad hits
 
+#Isolating false positives
+B55_substrates=read.csv("JCB_201606033_TableS3.csv")
+Com_Data_Sub=subset(Filtered_Data, 
+                    !ID %in% B55_substrates$RecordsIndex)
 
+#Create dataest with all false positives values
+Com_Data_Sub=subset(Dataset_Clean, 
+                    RecordsIndex %in% Com_Data_Sub$ID)
+Com_Data_Sub=select(Com_Data_Sub, -grep("CM", names(Com_Data_Sub)))
+Com_Data_Sub[Com_Data_Sub=="#VALUE!"]=NaN
+
+#Making all value columns the same type
+Transformed=apply(Com_Data_Sub[5:28], 2, as.double)
+
+#Combining back to a single dataframe with all information
+Com_Data_Sub=cbind(Com_Data_Sub[1:4], Transformed)
+
+# Making one column with all information for each protein
+Isolated_Prots=pivot_longer(Com_Data_Sub, Control_0:GWL_45)
+Isolated_Prots=as.data.frame(Isolated_Prots)
+
+#Adding two new columns, one for time and one for Condition
+index = 1:length(Isolated_Prots[,1])
+for(i in index){
+  if (grepl("_0", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=0
+  }
+  if (grepl("_5", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=5
+  }
+  if (grepl("2_5", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=2.5
+  }
+  if (grepl("7_5", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=7.5
+  }
+  if (grepl("10", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=10
+  }
+  if (grepl("20", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=20
+  }
+  if (grepl("30", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=30
+  }
+  if (grepl("45", Isolated_Prots$name[i])){
+    Isolated_Prots$TIME[i]=45
+  }
+  if (grepl("Control_", Isolated_Prots$name[i])){
+    Isolated_Prots$Condition[i]="Control"
+  }
+  if (grepl("B55_", Isolated_Prots$name[i])){
+    Isolated_Prots$Condition[i]="B55_KD"
+  }
+  if (grepl("GWL_", Isolated_Prots$name[i])){
+    Isolated_Prots$Condition[i]="GWL_KD"
+  }
+}
+
+#Saving file
+write.csv(Isolated_Prots, file="Proteins_Time_Condition")
+
+ggplot(filter(Isolated_Prots, Condition=="Control"), 
+       aes(x=TIME, y=value, color=Gene_names))+
+  theme(legend.position = "none", plot.title = element_text(hjust = 0.5))+
+  xlab("Time(minutes)")+
+  ggtitle("Dephosphorylation over time - False positives")+
+  geom_point()+
+  geom_line()+
+  geom_text(data=subset(Isolated_Prots, TIME==45&Condition=="Control"), 
+            aes(label=Gene_names), check_overlap = TRUE, nudge_y = 0.01)
